@@ -11,19 +11,20 @@ This project was graded in a format similar to a Kaggle competition, and our wor
 
 **Data Exploration and Preprocessing:**
 
-Data Understanding: Analyzed the dataset to understand the distribution, types of features (numerical, categorical, binary), and the presence of missing values.  
-Data Cleaning: Handled missing values, removed outliers, and converted categorical features to numerical representations.  
+Data Understanding: Analyzed the dataset to understand the distribution, types of features (numerical, categorical, binary), and used vizualizations for better understanding.  
+Missing Values:  Handeled missing values using different methods.  
+Data Cleaning: removed outliers and converted categorical features to numerical representations.  
 Feature Engineering: Added and transformed features, including normalizing numerical data and reducing dimensionality using techniques like PCA.
 
 **Model Selection and Training:**
-Trained multiple models including Logistic Regression, Decision Trees, CatBoost, and a Multi-Layer Perceptron (ANN).
+Trained multiple models including Logistic Regression, Decision Trees, CatBoost, and a Multi-Layer Perceptron (MLP).
 Performed hyperparameter tuning using techniques like Cross Validation and GridSearchCV to optimize model performance.
 Selected the best model based on AUC scores from validation tests.
 
 **Model Evaluation:**
 
 Evaluated models using the AUC metric and analyzed the results through confusion matrices and ROC curves.  
-Chose the ANN model as the final model based on its superior performance on the validation set.
+Chose the MLP model as the final model based on its superior performance on the validation set.
 
 
 **Prediction and Final Output:**
